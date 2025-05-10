@@ -40,6 +40,7 @@ function Form({ setRecommendations }) {
         }
       />
       <RecommendationType
+        recommendationValue={formData.selectedRecommendationType}
         onRecommendationTypeChange={(selected) =>
           handleChange('selectedRecommendationType', selected)
         }
